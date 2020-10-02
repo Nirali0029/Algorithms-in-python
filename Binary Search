@@ -1,0 +1,18 @@
+a=[3,54,74,6,88,24,99]
+key=(int)(input())
+a.sort()
+n=len(a)
+low=0
+high=n-1
+mid=0
+while(low<=high):
+  mid=(low+high)//2
+  if a[mid]==key:
+    print(str(key)+"found")
+    break
+  elif key<a[mid]:
+    high=mid-1
+  elif key>a[mid]:
+    low=mid+1
+else:
+  print(str(key)+" Not found")
