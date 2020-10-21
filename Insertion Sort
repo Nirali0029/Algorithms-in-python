@@ -11,5 +11,5 @@ def insertion(a):
   
   return a
 
-a=[2,7,4,6,1,8,5]
+a=[2,7,4,1,8,5]
 print(insertion(a))
