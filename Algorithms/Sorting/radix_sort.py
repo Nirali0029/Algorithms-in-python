@@ -35,7 +35,7 @@ def radixSort(arr):
 		countingSort(arr,exp)
 		exp *= 10
 
-# Driver code to test above
+# Drivercode
 arr = [ 70, 45, 75, 9, 82, 24, 2, 66]
 radixSort(arr)
 
